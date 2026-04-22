@@ -1,5 +1,4 @@
-package communityuni.com; // Lưu ý phải trùng với tên package của bạn
-
+package communityuni.com;
 import java.util.Random;
 import java.util.Scanner;
 
