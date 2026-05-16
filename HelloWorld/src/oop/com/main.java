@@ -6,5 +6,3 @@ public class Main {
         System.out.println("Tổng tiền: " + myInvoice.getInvoiceAmount());
     }
 }
-
-
