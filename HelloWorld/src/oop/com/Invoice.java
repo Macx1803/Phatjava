@@ -23,24 +23,24 @@ public class Invoice {
 		}
 	}
 	
-	public String partNumber() {
+	public String getPartNumber() {
 		return partNumber;
 	}
-	public void setPartNumber(String partNumber) {
+	public void getPartNumber(String partNumber) {
 		this.partNumber =partNumber;
 	}
 	
-	public String partDecription() {
+	public String getPartDescription() {
 		return partDecription;
 	}
-	public void setPartDecription(String partDecription) {
+	public void getPartDescription(String partDecription) {
 		this.partDecription =partDecription;
 	}
 	
-	public int quantity() {
+	public int getQuantity() {
 		return quantity;
 	}
-	public void setQuantity(int quantity) {
+	public void getQuantity(int quantity) {
 		if(quantity <0) {
 			this.quantity=quantity;
 		}else {
@@ -48,10 +48,10 @@ public class Invoice {
 		}
 	}
 	
-	public double price() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(double price) {
+	public void getPrice(double price) {
 		if(price<0) {
 			this.price=price;
 		}else {
